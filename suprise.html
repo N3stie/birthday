@@ -21,11 +21,19 @@
     <a href="dance.html" id="surpriseBtn">🎵Click for a Surprise!🎵</a>
     <div id="surpriseMessage" style="display:none; margin-top:20px;">
       🎁 Surprise! Hope you have an amazing day! 🎈
+
+      <audio src="Happy.mp3"></audio>
     </div>
   </main>
 
   <audio src="Happy.mp3" autoplay loop>
   </audio>
+
+  <button onclick="document.getElementById('birthdaySong').play()">
+  🎵 If music didn’t start, press here 🎵
+</button>
+
+
 
   <script>
   const btn = document.getElementById("playMusicBtn");
