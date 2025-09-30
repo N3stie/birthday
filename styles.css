@@ -47,3 +47,14 @@ header {
 #surpriseBtn:hover {
   background: #e02882;
 }
+
+.buttons{
+  display: inline-block;
+  padding: 10px 20px;
+  background: #ff3399;
+  color: white;
+  border-radius: 8px;
+  text-decoration: none; /* removes underline */
+  font-weight: bold;
+  cursor: pointer;
+}
