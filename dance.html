@@ -27,5 +27,16 @@
   </audio>
 
 
+  <script>
+  const btn = document.getElementById("playMusicBtn");
+  const song = document.getElementById("birthdaySong");
+
+  btn.addEventListener("click", (e) => {
+    e.preventDefault(); 
+    song.play();
+  });
+</script>
+
+
 </body>
 </html>

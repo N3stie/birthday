@@ -18,17 +18,24 @@
     <div class="cake-image">
         <img src="cake.gif" alt="">
     </div>
-    <a href="dance.html" id="surpriseBtn">Click for a Surprise!</a>
+    <a href="dance.html" id="surpriseBtn">🎵Click for a Surprise!🎵</a>
     <div id="surpriseMessage" style="display:none; margin-top:20px;">
       🎁 Surprise! Hope you have an amazing day! 🎈
     </div>
   </main>
 
-  <audio src="Happybirthday.mp3" autoplay loop>
+  <audio src="Happy.mp3" autoplay loop>
   </audio>
 
-  
+  <script>
+  const btn = document.getElementById("playMusicBtn");
+  const song = document.getElementById("birthdaySong");
 
-  <script src="script.js"></script>
+  btn.addEventListener("click", (e) => {
+    e.preventDefault(); 
+    song.play();
+  });
+</script>
+
 </body>
 </html>
