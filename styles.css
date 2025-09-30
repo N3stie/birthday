@@ -1,0 +1,49 @@
+/* Base styles (desktop-first) */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to bottom, #ffe6f0, #fff);
+  text-align: center;
+}
+
+header {
+  padding: 20px;
+  font-size: 2rem;
+  color: #ff3399;
+}
+
+.card {
+  width: 500px;
+  margin: 30px auto;
+  padding: 20px;
+  background: white;
+  border-radius: 20px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+/* Mobile layout */
+@media (max-width: 768px) {
+  .card {
+    width: 90%;
+    margin: 15px auto;
+    padding: 15px;
+  }
+
+  header {
+    font-size: 1.5rem;
+  }
+}
+
+#surpriseBtn {
+  display: inline-block;
+  padding: 10px 20px;
+  background: #ff3399;
+  color: white;
+  border-radius: 8px;
+  text-decoration: none; /* removes underline */
+  font-weight: bold;
+  cursor: pointer;
+}
+#surpriseBtn:hover {
+  background: #e02882;
+}
